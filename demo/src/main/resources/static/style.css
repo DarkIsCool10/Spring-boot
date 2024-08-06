@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+
+.formBorder {
+    width: 50%; /* Ancho del formulario */
+    margin: 40px auto; /* Margen superior e inferior de 40px y centrado horizontalmente */
+    padding: 20px; /* Relleno interno de 20px */
+    border: 1px solid #ccc; /* Borde de 1px de color gris claro */
+    border-radius: 10px; /* Borde redondeado de 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra de 10px de color negro con opacidad 0.1 */
+  }
+  
+  .formBorder h1 {
+    text-align: center; /* Centra el título del formulario */
+  }
+  
+  .formBorder form {
+    margin-top: 20px; /* Margen superior de 20px para el formulario */
+  }
+  
+  .formBorder label {
+    display: block; /* Muestra los labels en bloque */
+    margin-bottom: 5px; /* Margen inferior de 10px para los labels */
+  }
+  
+  .formBorder input[type="number"], .formBorder input[type="text"], .formBorder input[type="email"] {
+    width: 730px; /* Ancho de los inputs */
+    height: 40px; /* Alto de los inputs */
+    margin-bottom: 20px; /* Margen inferior de 20px para los inputs */
+    padding: 10px; /* Relleno interno de 10px para los inputs */
+    border: 1px solid #ccc; /* Borde de 1px de color gris claro para los inputs */
+  }
+  
+  .formBorder button[type="submit"] {
+    width: 100%; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px; /* Relleno interno de 10px para el botón */
+    border: none; /* Sin borde para el botón */
+    border-radius: 5px; /* Borde redondeado de 5px para el botón */
+    cursor: pointer; /* Cursor de mano para el botón */
+  }
+  
+  .formBorder button[type="submit"]:hover {
+    background-color: #3e8e41; /* Color de fondo del botón al pasar el cursor */
+  }
+
+.nombre,.id,.email,.botonCrear{
+    margin-top: 5px;
+}
+
+.botonCrear{
+    background-color: yellow;
+}
